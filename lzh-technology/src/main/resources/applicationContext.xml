@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+   
+	
+     <import resource="classpath*:spring/spring-beans.xml" />
+     <import resource="classpath*:spring/spring-datasource.xml" />
+	 <import resource="classpath*:spring/spring-mvc.xml" />
+	 <import resource="classpath*:spring/spring-es.xml" />
+	 <import resource="classpath*:spring/spring-infrastructure.xml" />
+	 <import resource="classpath*:spring/spring-websocket.xml" />
+	 <import resource="classpath*:spring/spring-shardingContext.xml" />
+	 <import resource="classpath*:dubbo/dubbo-server.xml" />
+	 <import resource="classpath*:dubbo/dubbo-client.xml" />
+</beans>
